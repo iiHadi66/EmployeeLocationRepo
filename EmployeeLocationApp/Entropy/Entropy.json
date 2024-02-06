@@ -3,30 +3,30 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 5,
-    "Gallery2": 15,
-    "galleryTemplate1": 6,
-    "galleryTemplate2": 16,
+    "Gallery1": 14,
+    "Gallery2": 23,
+    "galleryTemplate1": 15,
+    "galleryTemplate2": 24,
     "Host": 3,
-    "Image1": 8,
-    "Image2": 17,
-    "Label1": 13,
-    "NextArrow1": 9,
-    "NextArrow2": 20,
-    "Rectangle1": 7,
-    "Rectangle2": 22,
-    "Screen1": 4,
-    "Screen2": 14,
-    "Separator1": 12,
-    "Separator2": 21,
-    "Subtitle1": 11,
-    "Subtitle2": 19,
-    "Title1": 10,
-    "Title2": 18
+    "Image1": 17,
+    "Image2": 25,
+    "Label1": 22,
+    "NextArrow1": 18,
+    "NextArrow2": 28,
+    "Rectangle1": 16,
+    "Rectangle2": 30,
+    "Screen1": 13,
+    "Screen2": 4,
+    "Separator1": 21,
+    "Separator2": 29,
+    "Subtitle1": 20,
+    "Subtitle2": 27,
+    "Title1": 19,
+    "Title2": 26
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:10:21",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:12:58",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -53,9 +53,9 @@
   "OrderXMLTemplate": {
     "gallery": 0,
     "icon": 3,
-    "image": 2,
-    "label": 4,
-    "rectangle": 1
+    "image": 1,
+    "label": 2,
+    "rectangle": 4
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -85,25 +85,25 @@
   "PublishOrderIndices": {
     "App": 0,
     "Gallery1": 4,
-    "Gallery2": 14,
+    "Gallery2": 0,
     "galleryTemplate1": 6,
-    "galleryTemplate2": 15,
+    "galleryTemplate2": 0,
     "Host": 0,
     "Image1": 8,
-    "Image2": 16,
+    "Image2": 0,
     "Label1": 5,
     "NextArrow1": 9,
-    "NextArrow2": 19,
+    "NextArrow2": 0,
     "Rectangle1": 7,
-    "Rectangle2": 21,
+    "Rectangle2": 0,
     "Screen1": 3,
     "Screen2": 13,
     "Separator1": 12,
-    "Separator2": 20,
+    "Separator2": 0,
     "Subtitle1": 11,
-    "Subtitle2": 18,
+    "Subtitle2": 0,
     "Title1": 10,
-    "Title2": 17
+    "Title2": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -111,7 +111,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0523807,
+    "AnalysisLoadTime": 0.1516063,
     "ControlCount": {
       "gallery": 2,
       "galleryTemplate": 2,
@@ -121,7 +121,7 @@
       "rectangle": 4,
       "screen": 2
     },
-    "DeserializationLoadTime": 0.3715447
+    "DeserializationLoadTime": 0.9717919
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
