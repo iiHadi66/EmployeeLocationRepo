@@ -26,6 +26,14 @@
         "User Hierarchy Tile Form": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452",
         "User main form": "1777bd3d-05ba-ee11-a569-000d3aa9a09b"
       }
+    },
+    {
+      "Kind": "default.cds_brsk_adminsetting_forms",
+      "Namespace": "AdminSettings (Forms)",
+      "Values": {
+        "AdminSetting main form": "da240f2d-e1c4-ee11-9079-000d3aa9a09b",
+        "Information": "c66f1341-ad24-4554-9362-fc859b568101"
+      }
     }
   ]
 }
