@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "brsk_adminsettings",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "brsk_adminsetting",
+    "Name": "AdminSettings",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "brsk_adminsetting_AsyncOperations": "System Jobs",
+      "brsk_adminsetting_BulkDeleteFailures": "Bulk Delete Failures",
+      "brsk_adminsetting_DuplicateBaseRecord": "Duplicate Records (brsk_adminsetting_DuplicateBaseRecord)",
+      "brsk_adminsetting_DuplicateMatchingRecord": "Duplicate Records (brsk_adminsetting_DuplicateMatchingRecord)",
+      "brsk_adminsetting_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "brsk_adminsetting_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "brsk_adminsetting_ProcessSession": "Process Sessions",
+      "brsk_adminsetting_SyncErrors": "Sync Errors",
+      "brsk_adminsettingid": "AdminSetting",
+      "brsk_name": "Name",
+      "brsk_nudgetime": "nudgeTime",
+      "brsk_reportdeadline": "reportDeadline",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "AdminSettings",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "AdminSettings (Views)",
+    "Name": "_brsk_adminsetting_views",
+    "RelatedEntityName": "AdminSettings",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "216104ec-c4df-49b6-a19a-60e65ccd795e": "AdminSetting Associated View",
+      "457a74f7-f202-4185-9dc5-57e958a14b5d": "AdminSetting Advanced Find View",
+      "739edbb6-2790-4d50-a13d-609d0c2a1416": "Inactive AdminSettings",
+      "d9b524ee-df28-4760-886c-4851cd9a07f9": "AdminSetting Lookup View",
+      "e8d284b6-f8a7-4f05-937e-3f69a595b547": "Active AdminSettings"
+    }
+  },
+  {
+    "DisplayName": "Status (AdminSettings)",
+    "Name": "brsk_adminsetting_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "AdminSettings"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "AdminSettings",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (AdminSettings)",
+    "Name": "brsk_adminsetting_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "AdminSettings"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "AdminSettings",
+    "Type": "OptionSetInfo"
+  }
+]
