@@ -1,0 +1,12 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_brsk_location_forms",
+      "Namespace": "Locations (Forms)",
+      "Values": {
+        "Information": "5c6ec34c-c168-4fe1-b802-99224e49362c",
+        "Location main form": "f50875d6-0bb6-ee11-a569-000d3aa9a09b"
+      }
+    }
+  ]
+}

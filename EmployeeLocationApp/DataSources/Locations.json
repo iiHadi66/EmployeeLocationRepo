@@ -1,0 +1,146 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "brsk_locations",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "brsk_location",
+    "Name": "Locations",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "brsk_colour": "Colour",
+      "brsk_employeelocation_LocationID_brsk_location": "EmployeeLocation",
+      "brsk_isdisplay": "IsDisplay",
+      "brsk_location_AsyncOperations": "System Jobs",
+      "brsk_location_BulkDeleteFailures": "Bulk Delete Failures",
+      "brsk_location_DuplicateBaseRecord": "Duplicate Records (brsk_location_DuplicateBaseRecord)",
+      "brsk_location_DuplicateMatchingRecord": "Duplicate Records (brsk_location_DuplicateMatchingRecord)",
+      "brsk_location_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "brsk_location_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "brsk_location_ProcessSession": "Process Sessions",
+      "brsk_location_SyncErrors": "Sync Errors",
+      "brsk_locationid": "Location",
+      "brsk_name": "Name",
+      "cr3e0_locationname": "LocationName",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Locations",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Locations (Views)",
+    "Name": "_brsk_location_views",
+    "RelatedEntityName": "Locations",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "15c24524-2b78-4a09-97cc-6238ab45ae5f": "Location Associated View",
+      "4be6b49c-6073-467b-add9-004dd25fb696": "Active Locations (4be6b49c-6073-467b-add9-004dd25fb696)",
+      "78c56f32-5924-4201-871a-eebbd16aff8e": "Location Lookup View",
+      "8ff5ebbb-c28b-42e8-8607-d4d895b5a84f": "Location Advanced Find View",
+      "9f9e6fc8-06b6-ee11-a569-000d3aa9a09b": "Active Locations (9f9e6fc8-06b6-ee11-a569-000d3aa9a09b)",
+      "adf2df4e-7fd2-48d7-acb3-68770c33b5ef": "Inactive Locations",
+      "b79b081e-07b6-ee11-a569-000d3aa9a09b": "Active Locations (b79b081e-07b6-ee11-a569-000d3aa9a09b)",
+      "c925fcb6-06b6-ee11-a569-000d3aa9a09b": "Active Locations (c925fcb6-06b6-ee11-a569-000d3aa9a09b)"
+    }
+  },
+  {
+    "DisplayName": "IsDisplay (Locations)",
+    "Name": "brsk_location_brsk_isdisplay",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Yes"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "brsk_isdisplay",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "brsk_isdisplay",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Locations)",
+    "Name": "brsk_location_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Locations)",
+    "Name": "brsk_location_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "LocationName",
+    "Name": "cr3e0_locationname",
+    "OptionSetInfoNameMapping": {
+      "0": "Customer",
+      "1": "Home",
+      "2": "Office",
+      "334570001": "Missed Check In",
+      "334570002": "Out Of Office"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr3e0_locationname",
+        "OptionSetReferenceEntityName": "Locations"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr3e0_locationname",
+    "RelatedEntityName": "Locations",
+    "Type": "OptionSetInfo"
+  }
+]
