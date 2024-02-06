@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "brsk_employeelocations",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "brsk_employeelocation",
+    "Name": "EmployeeLocation",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "brsk_EmployeeId": "EmployeeId",
+      "brsk_employeelocation_AsyncOperations": "System Jobs",
+      "brsk_employeelocation_BulkDeleteFailures": "Bulk Delete Failures",
+      "brsk_employeelocation_DuplicateBaseRecord": "Duplicate Records (brsk_employeelocation_DuplicateBaseRecord)",
+      "brsk_employeelocation_DuplicateMatchingRecord": "Duplicate Records (brsk_employeelocation_DuplicateMatchingRecord)",
+      "brsk_employeelocation_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "brsk_employeelocation_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "brsk_employeelocation_ProcessSession": "Process Sessions",
+      "brsk_employeelocation_SyncErrors": "Sync Errors",
+      "brsk_employeelocationid": "EmployeeLocation",
+      "brsk_LocationID": "LocationID",
+      "brsk_name": "Comment",
+      "brsk_StatusID": "StatusID",
+      "brsk_UserID": "UserID",
+      "createdby": "Created By",
+      "createdon": "CreatedOn",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "EmployeeLocation",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "EmployeeLocation (Views)",
+    "Name": "_brsk_employeelocation_views",
+    "RelatedEntityName": "EmployeeLocation",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "161518cd-0207-460d-9e53-a66130fe7d0c": "EmployeeLocation Advanced Find View",
+      "1ebacbea-30c0-ee11-9079-000d3aa9a09b": "Active Location",
+      "941e4d63-7170-4e69-a697-46be9299ccf8": "EmployeeLocation Associated View",
+      "96fb0a8a-4961-4e72-ba32-a70a816f791b": "EmployeeLocation Lookup View",
+      "ad55c3c1-72a3-4d83-ab01-20b553cd4621": "Active EmployeeLocation",
+      "b7814c3d-260a-45aa-bb1c-6b085258e42a": "Inactive EmployeeLocation"
+    }
+  },
+  {
+    "DisplayName": "Status (EmployeeLocation)",
+    "Name": "brsk_employeelocation_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "EmployeeLocation"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "EmployeeLocation",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (EmployeeLocation)",
+    "Name": "brsk_employeelocation_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "EmployeeLocation"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "EmployeeLocation",
+    "Type": "OptionSetInfo"
+  }
+]

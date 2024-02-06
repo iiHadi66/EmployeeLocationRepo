@@ -3,12 +3,20 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Gallery1": 13,
+    "galleryTemplate1": 14,
     "Host": 3,
-    "Screen1": 4
+    "Image1": 15,
+    "NextArrow1": 18,
+    "Rectangle1": 20,
+    "Screen1": 4,
+    "Separator1": 19,
+    "Subtitle1": 17,
+    "Title1": 16
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:45:19",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:46:05",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -17,23 +25,49 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "CustomGallerySample": 0
+    "CustomGallerySample": 4,
+    "EmployeeLocation": 3,
+    "EmployeeLocation\\brsk_employeelocation_statecode": 1,
+    "EmployeeLocation\\brsk_employeelocation_statuscode": 0,
+    "EmployeeLocation\\default.cds_brsk_employeelocation_views": 2
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 3,
+    "image": 1,
+    "label": 2,
+    "rectangle": 4
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
     "Host": {},
-    "Screen1": {}
+    "Image1": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Screen1": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Gallery1": 0,
+    "galleryTemplate1": 0,
     "Host": 0,
-    "Screen1": 0
+    "Image1": 0,
+    "NextArrow1": 0,
+    "Rectangle1": 0,
+    "Screen1": 0,
+    "Separator1": 0,
+    "Subtitle1": 0,
+    "Title1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
