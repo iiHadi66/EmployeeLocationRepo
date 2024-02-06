@@ -14,28 +14,39 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3"
+                  "fullyQualifiedName": "Screen4.Gallery4.Items"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3",
+                  "fullyQualifiedName": "Screen4.Gallery4.Items",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "AdminSettings"
+                  }
                 }
               },
               "properties": {
-                "module": "Screen3",
-                "type": "Screen3"
+                "member": "Items",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4"
               }
             }
           ],
           "message": {
+            "arguments": [
+              "AdminSettings"
+            ],
             "id": "issue"
           },
           "properties": {
-            "level": "Low"
+            "level": "High"
           },
-          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleId": "app-ErrInvalidName",
           "ruleIndex": 0
         },
         {
@@ -43,19 +54,66 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.Gallery3.AccessibleLabel"
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.Text"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.Gallery3.AccessibleLabel",
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.Text",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "Screen3",
-                "type": "Screen3.Gallery3"
+                "member": "Text",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Title4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Title4"
               }
             }
           ],
@@ -63,9 +121,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleId": "app-ErrInvalidDot",
           "ruleIndex": 1
         },
         {
@@ -73,19 +131,66 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Screen3.Gallery3.TabIndex"
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Screen3.Gallery3.TabIndex",
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight",
                   "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
                 }
               },
               "properties": {
-                "member": "TabIndex",
-                "module": "Screen3",
-                "type": "Screen3.Gallery3"
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Title4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Title4"
               }
             }
           ],
@@ -93,10 +198,826 @@
             "id": "issue"
           },
           "properties": {
-            "level": "Medium"
+            "level": "High"
           },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Title4.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Title4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
           "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Subtitle4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".reportDeadline"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Subtitle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Subtitle4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Subtitle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Subtitle4.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Subtitle4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Rectangle4.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Rectangle4.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen4.Gallery4.Rectangle4.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen4.Gallery4.Rectangle4.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Screen4",
+                "type": "Screen4.Gallery4.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Items"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Items",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 13,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "AdminSettings"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Items",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "AdminSettings"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Title5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 5,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".Name"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Title5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Title5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Title5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Title5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Title5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Subtitle5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.Text"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.Text",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 15,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".reportDeadline"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Text",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Subtitle5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 3,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Subtitle5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 11,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Subtitle5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Subtitle5.FontWeight",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 63,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)"
+                  }
+                }
+              },
+              "properties": {
+                "member": "FontWeight",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Subtitle5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "If"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidArgs-Func",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Rectangle5.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Rectangle5.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 8,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "ThisItem"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Rectangle5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "ThisItem"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery5.Rectangle5.Visible"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery5.Rectangle5.Visible",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 11,
+                  "charOffset": 8,
+                  "snippet": {
+                    "text": ".IsSelected"
+                  }
+                }
+              },
+              "properties": {
+                "member": "Visible",
+                "module": "Screen3",
+                "type": "Screen3.Gallery5.Rectangle5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidDot",
+          "ruleIndex": 1
         },
         {
           "locations": [
@@ -125,7 +1046,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -155,7 +1076,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -185,7 +1106,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -214,7 +1135,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -244,7 +1165,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -274,7 +1195,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -303,7 +1224,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -333,7 +1254,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -363,7 +1284,96 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "module": "Screen3",
+                "type": "Screen3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Low"
+          },
+          "ruleId": "acc-ReadableScreenNameNeeded",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery3.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery3.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "Screen3",
+                "type": "Screen3.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Screen3.Gallery3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Screen3.Gallery3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "Screen3",
+                "type": "Screen3.Gallery3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 5
         },
         {
           "locations": [
@@ -393,7 +1403,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 1
+          "ruleIndex": 4
         },
         {
           "locations": [
@@ -423,7 +1433,7 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
+          "ruleIndex": 5
         }
       ],
       "tool": {
@@ -431,6 +1441,51 @@
           "fullName": "PowerApps app checker",
           "name": "PowerApps app checker",
           "rules": [
+            {
+              "id": "app-ErrInvalidName",
+              "messageStrings": {
+                "issue": {
+                  "text": "Name isn't valid. '{0}' isn't recognized."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove or correct the reference to the name that isn't valid."
+                ],
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidDot",
+              "messageStrings": {
+                "issue": {
+                  "text": "Invalid use of '.'"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
+            {
+              "id": "app-ErrInvalidArgs-Func",
+              "messageStrings": {
+                "issue": {
+                  "text": "The function '{0}' has some invalid arguments."
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
+              }
+            },
             {
               "id": "acc-ReadableScreenNameNeeded",
               "messageStrings": {
