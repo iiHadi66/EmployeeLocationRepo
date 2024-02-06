@@ -83,3 +83,11 @@ Screen1 As screen:
             Width: =4
             ZIndex: =6
 
+    Label1 As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Size: =20
+        Text: ="TEST"
+        X: =900
+        Y: =96
+        ZIndex: =2
+

@@ -7,6 +7,7 @@
     "galleryTemplate1": 14,
     "Host": 3,
     "Image1": 15,
+    "Label1": 21,
     "NextArrow1": 18,
     "Rectangle1": 20,
     "Screen1": 4,
@@ -16,7 +17,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:46:17",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:46:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -37,9 +38,9 @@
   "OrderXMLTemplate": {
     "gallery": 0,
     "icon": 3,
-    "image": 1,
-    "label": 2,
-    "rectangle": 4
+    "image": 2,
+    "label": 4,
+    "rectangle": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -47,6 +48,7 @@
     "galleryTemplate1": {},
     "Host": {},
     "Image1": {},
+    "Label1": {},
     "NextArrow1": {},
     "Rectangle1": {},
     "Screen1": {},
@@ -59,15 +61,16 @@
   "PublishOrderIndices": {
     "App": 0,
     "Gallery1": 0,
-    "galleryTemplate1": 0,
+    "galleryTemplate1": 1,
     "Host": 0,
-    "Image1": 0,
-    "NextArrow1": 0,
-    "Rectangle1": 0,
+    "Image1": 3,
+    "Label1": 8,
+    "NextArrow1": 4,
+    "Rectangle1": 2,
     "Screen1": 0,
-    "Separator1": 0,
-    "Subtitle1": 0,
-    "Title1": 0
+    "Separator1": 7,
+    "Subtitle1": 6,
+    "Title1": 5
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
