@@ -1,9 +1,25 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
+    "Host": 3,
+    "Image1": 8,
+    "Label1": 13,
+    "NextArrow1": 9,
+    "Rectangle1": 7,
+    "Screen1": 4,
+    "Screen2": 14,
+    "Screen3": 15,
+    "Separator1": 12,
+    "Subtitle1": 11,
+    "Title1": 10
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:19:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -11,16 +27,80 @@
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderDataSource": {
+    "CustomGallerySample": 8,
+    "EmployeeLocation": 9,
+    "EmployeeLocation\\brsk_employeelocation_statecode": 0,
+    "EmployeeLocation\\brsk_employeelocation_statuscode": 1,
+    "EmployeeLocation\\default.cds_brsk_employeelocation_views": 6,
+    "Locations": 10,
+    "Locations\\brsk_location_brsk_isdisplay": 2,
+    "Locations\\brsk_location_statecode": 4,
+    "Locations\\brsk_location_statuscode": 5,
+    "Locations\\cr3e0_locationname": 3,
+    "Locations\\default.cds_brsk_location_views": 7
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 0,
+    "icon": 3,
+    "image": 2,
+    "label": 4,
+    "rectangle": 1
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Host": {},
+    "Image1": {},
+    "Label1": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Screen3": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Gallery1": 4,
+    "galleryTemplate1": 6,
+    "Host": 0,
+    "Image1": 8,
+    "Label1": 5,
+    "NextArrow1": 9,
+    "Rectangle1": 7,
+    "Screen1": 3,
+    "Screen2": 13,
+    "Screen3": 14,
+    "Separator1": 12,
+    "Subtitle1": 11,
+    "Title1": 10
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.0465417,
+    "ControlCount": {
+      "gallery": 2,
+      "galleryTemplate": 2,
+      "icon": 2,
+      "image": 2,
+      "label": 5,
+      "rectangle": 4,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 0.7440471
+  },
+  "WasLocalDatabaseReferencesEmpty": false
 }
