@@ -1,27 +1,25 @@
 [
   {
     "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
-    "EntitySetName": "brsk_adminsettings",
+    "EntitySetName": "brsk_statuses",
     "IsHidden": false,
     "IsSampleData": false,
     "IsWritable": true,
-    "LogicalName": "brsk_adminsetting",
-    "MaxGetRowsCount": 500,
-    "Name": "AdminSettings",
+    "LogicalName": "brsk_status",
+    "Name": "Statuses",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
-      "brsk_adminsetting_AsyncOperations": "System Jobs",
-      "brsk_adminsetting_BulkDeleteFailures": "Bulk Delete Failures",
-      "brsk_adminsetting_DuplicateBaseRecord": "Duplicate Records (brsk_adminsetting_DuplicateBaseRecord)",
-      "brsk_adminsetting_DuplicateMatchingRecord": "Duplicate Records (brsk_adminsetting_DuplicateMatchingRecord)",
-      "brsk_adminsetting_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
-      "brsk_adminsetting_PrincipalObjectAttributeAccesses": "Field Sharing",
-      "brsk_adminsetting_ProcessSession": "Process Sessions",
-      "brsk_adminsetting_SyncErrors": "Sync Errors",
-      "brsk_adminsettingid": "AdminSetting",
+      "brsk_employeelocation_StatusID_brsk_status": "EmployeeLocation",
       "brsk_name": "Name",
-      "brsk_nudgetime": "nudgeTime",
-      "brsk_reportdeadline": "reportDeadline",
+      "brsk_status_AsyncOperations": "System Jobs",
+      "brsk_status_BulkDeleteFailures": "Bulk Delete Failures",
+      "brsk_status_DuplicateBaseRecord": "Duplicate Records (brsk_status_DuplicateBaseRecord)",
+      "brsk_status_DuplicateMatchingRecord": "Duplicate Records (brsk_status_DuplicateMatchingRecord)",
+      "brsk_status_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "brsk_status_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "brsk_status_ProcessSession": "Process Sessions",
+      "brsk_status_SyncErrors": "Sync Errors",
+      "brsk_statusid": "Status (brsk_statusid)",
       "createdby": "Created By",
       "createdon": "Created On",
       "createdonbehalfby": "Created By (Delegate)",
@@ -33,32 +31,32 @@
       "owningbusinessunit": "Owning Business Unit",
       "owningteam": "Owning Team",
       "owninguser": "Owning User",
-      "statecode": "Status",
+      "statecode": "Status (statecode)",
       "statuscode": "Status Reason",
       "timezoneruleversionnumber": "Time Zone Rule Version Number",
       "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
       "versionnumber": "Version Number"
     },
-    "PreferredName": "AdminSettings",
+    "PreferredName": "Statuses",
     "Type": "NativeCDSDataSourceInfo"
   },
   {
-    "DisplayName": "AdminSettings (Views)",
-    "Name": "_brsk_adminsetting_views",
-    "RelatedEntityName": "AdminSettings",
+    "DisplayName": "Statuses (Views)",
+    "Name": "_brsk_status_views",
+    "RelatedEntityName": "Statuses",
     "TrimmedViewName": true,
     "Type": "ViewInfo",
     "ViewInfoNameMapping": {
-      "216104ec-c4df-49b6-a19a-60e65ccd795e": "AdminSetting Associated View",
-      "457a74f7-f202-4185-9dc5-57e958a14b5d": "AdminSetting Advanced Find View",
-      "739edbb6-2790-4d50-a13d-609d0c2a1416": "Inactive AdminSettings",
-      "d9b524ee-df28-4760-886c-4851cd9a07f9": "AdminSetting Lookup View",
-      "e8d284b6-f8a7-4f05-937e-3f69a595b547": "Active AdminSettings"
+      "48d7f8c5-65b1-4d33-96e4-9fb798e97818": "Active Statuses",
+      "4e421f2d-5b91-4c8c-8ddc-a8d7b118f252": "Status Associated View",
+      "8d500b0d-7a75-4271-986e-067e88007ad9": "Status Advanced Find View",
+      "97a2cead-022a-481d-9e00-86cdbeeb88ad": "Inactive Statuses",
+      "bc8afaf4-746e-452e-bab4-41b8a4408c0d": "Status Lookup View"
     }
   },
   {
-    "DisplayName": "Status (AdminSettings)",
-    "Name": "brsk_adminsetting_statecode",
+    "DisplayName": "Status (Statuses)",
+    "Name": "brsk_status_statecode",
     "OptionSetInfoNameMapping": {
       "0": "Active",
       "1": "Inactive"
@@ -68,17 +66,17 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statecode",
-        "OptionSetReferenceEntityName": "AdminSettings"
+        "OptionSetReferenceEntityName": "Statuses"
       }
     },
     "OptionSetTypeKey": "StateType",
     "RelatedColumnInvariantName": "statecode",
-    "RelatedEntityName": "AdminSettings",
+    "RelatedEntityName": "Statuses",
     "Type": "OptionSetInfo"
   },
   {
-    "DisplayName": "Status Reason (AdminSettings)",
-    "Name": "brsk_adminsetting_statuscode",
+    "DisplayName": "Status Reason (Statuses)",
+    "Name": "brsk_status_statuscode",
     "OptionSetInfoNameMapping": {
       "1": "Active",
       "2": "Inactive"
@@ -88,12 +86,12 @@
     "OptionSetReference": {
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "statuscode",
-        "OptionSetReferenceEntityName": "AdminSettings"
+        "OptionSetReferenceEntityName": "Statuses"
       }
     },
     "OptionSetTypeKey": "StatusType",
     "RelatedColumnInvariantName": "statuscode",
-    "RelatedEntityName": "AdminSettings",
+    "RelatedEntityName": "Statuses",
     "Type": "OptionSetInfo"
   }
 ]
