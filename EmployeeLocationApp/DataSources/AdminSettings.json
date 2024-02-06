@@ -6,7 +6,6 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "brsk_adminsetting",
-    "MaxGetRowsCount": 500,
     "Name": "AdminSettings",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
