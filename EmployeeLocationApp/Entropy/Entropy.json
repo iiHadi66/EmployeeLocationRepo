@@ -3,21 +3,21 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 13,
-    "galleryTemplate1": 14,
+    "Gallery1": 5,
+    "galleryTemplate1": 6,
     "Host": 3,
-    "Image1": 15,
-    "Label1": 21,
-    "NextArrow1": 18,
-    "Rectangle1": 20,
+    "Image1": 8,
+    "Label1": 13,
+    "NextArrow1": 9,
+    "Rectangle1": 7,
     "Screen1": 4,
-    "Separator1": 19,
-    "Subtitle1": 17,
-    "Title1": 16
+    "Separator1": 12,
+    "Subtitle1": 11,
+    "Title1": 10
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:47:13",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 11:09:57",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -28,8 +28,8 @@
   "OrderDataSource": {
     "CustomGallerySample": 4,
     "EmployeeLocation": 3,
-    "EmployeeLocation\\brsk_employeelocation_statecode": 1,
-    "EmployeeLocation\\brsk_employeelocation_statuscode": 0,
+    "EmployeeLocation\\brsk_employeelocation_statecode": 0,
+    "EmployeeLocation\\brsk_employeelocation_statuscode": 1,
     "EmployeeLocation\\default.cds_brsk_employeelocation_views": 2
   },
   "OrderGroupControls": {},
@@ -78,17 +78,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1124349,
+    "AnalysisLoadTime": 0.1260268,
     "ControlCount": {
       "gallery": 1,
       "galleryTemplate": 1,
       "icon": 1,
       "image": 1,
-      "label": 2,
+      "label": 3,
       "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.8417709
+    "DeserializationLoadTime": 0.9678247
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
