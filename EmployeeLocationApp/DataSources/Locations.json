@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "brsk_location",
+    "MaxGetRowsCount": 500,
     "Name": "Locations",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",
