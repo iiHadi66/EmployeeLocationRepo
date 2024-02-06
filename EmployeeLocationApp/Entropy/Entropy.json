@@ -3,20 +3,12 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Gallery1": 5,
-    "galleryTemplate1": 6,
     "Host": 3,
-    "Image1": 7,
-    "NextArrow1": 10,
-    "Rectangle1": 12,
-    "Screen1": 4,
-    "Separator1": 11,
-    "Subtitle1": 9,
-    "Title1": 8
+    "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:43:53",
+  "HeaderLastSavedDateTimeUTC": "02/06/2024 10:45:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -25,51 +17,23 @@
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
   "OrderDataSource": {
-    "CustomGallerySample": 6,
-    "Locations": 5,
-    "Locations\\brsk_location_brsk_isdisplay": 0,
-    "Locations\\brsk_location_statecode": 2,
-    "Locations\\brsk_location_statuscode": 3,
-    "Locations\\cr3e0_locationname": 1,
-    "Locations\\default.cds_brsk_location_views": 4
+    "CustomGallerySample": 0
   },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "gallery": 0,
-    "icon": 3,
-    "image": 1,
-    "label": 2,
-    "rectangle": 4
-  },
+  "OrderXMLTemplate": {},
   "OverridablePropertiesEntry": {
     "App": {},
-    "Gallery1": {},
-    "galleryTemplate1": {},
     "Host": {},
-    "Image1": {},
-    "NextArrow1": {},
-    "Rectangle1": {},
-    "Screen1": {},
-    "Separator1": {},
-    "Subtitle1": {},
-    "Title1": {}
+    "Screen1": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Gallery1": 0,
-    "galleryTemplate1": 0,
     "Host": 0,
-    "Image1": 0,
-    "NextArrow1": 0,
-    "Rectangle1": 0,
-    "Screen1": 0,
-    "Separator1": 0,
-    "Subtitle1": 0,
-    "Title1": 0
+    "Screen1": 0
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
@@ -77,11 +41,17 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0405981,
+    "AnalysisLoadTime": 0.1124349,
     "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "image": 1,
+      "label": 2,
+      "rectangle": 2,
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6186038
+    "DeserializationLoadTime": 0.8417709
   },
   "WasLocalDatabaseReferencesEmpty": false
 }
