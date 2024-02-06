@@ -2,7 +2,7 @@
   "DatasetName": "default.cds",
   "EntityName": "EmployeeLocation",
   "environmentVariableName": "",
-  "InstanceUrl": "https://org320ca94d.crm4.dynamics.com/",
+  "InstanceUrl": "https://org320ca94d.crm4.dynamics.com",
   "LocalReferenceDSJson": {
     "entitySetName": "brsk_employeelocations",
     "logicalName": "brsk_employeelocation"
